@@ -1,0 +1,227 @@
+{
+	"id": "0cb23c90-961e-4bd9-a794-780ea9b7019c",
+	"name": "COURSES",
+	"timestamp": "2022-10-12T09:58:30.133Z",
+	"collection_id": "23040966-a1e8674d-6e46-4d12-96b9-0ef4285f232d",
+	"folder_id": 0,
+	"environment_id": "23040966-91fd4119-c68f-4b7c-9bd2-68231eb02b6e",
+	"totalPass": 14,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "c1cfedf7-35ec-42b9-9364-366523be6076",
+			"name": "CREATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/",
+			"time": 192,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches course title": true,
+				"Body matches course description": true,
+				"Body matches location": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches course title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches course description": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches location": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				192
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true,
+					"Body matches location": true
+				}
+			]
+		},
+		{
+			"id": "d0e96424-897d-4f0c-a6ae-0817b581273d",
+			"name": "LIST COURSES",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses",
+			"time": 222,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches correct course title": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches correct course title": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				222
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches correct course title": true
+				}
+			]
+		},
+		{
+			"id": "c61d2e34-f796-4ae8-9c0c-cee12ea7186e",
+			"name": "GET COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1661",
+			"time": 231,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches correct course title": true,
+				"Body matches course description": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches correct course title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches course description": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				231
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches correct course title": true,
+					"Body matches course description": true
+				}
+			]
+		},
+		{
+			"id": "5be4e9ec-cf55-4506-af91-94796d457994",
+			"name": "UPDATE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1661",
+			"time": 202,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Body matches course title": true,
+				"Body matches course description": true,
+				"Body matches location": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches course title": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches course description": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches location": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				202
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Body matches course title": true,
+					"Body matches course description": true,
+					"Body matches location": true
+				}
+			]
+		},
+		{
+			"id": "8ede734a-9403-47f5-a706-4ebd74d97d95",
+			"name": "DELETE COURSE",
+			"url": "https://notification-service.ishchoolapi.xyz/api/courses/1661",
+			"time": 210,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				210
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1057,
+	"collection": {
+		"requests": [
+			{
+				"id": "c1cfedf7-35ec-42b9-9364-366523be6076",
+				"method": "POST"
+			},
+			{
+				"id": "d0e96424-897d-4f0c-a6ae-0817b581273d",
+				"method": "GET"
+			},
+			{
+				"id": "c61d2e34-f796-4ae8-9c0c-cee12ea7186e",
+				"method": "GET"
+			},
+			{
+				"id": "5be4e9ec-cf55-4506-af91-94796d457994",
+				"method": "PUT"
+			},
+			{
+				"id": "8ede734a-9403-47f5-a706-4ebd74d97d95",
+				"method": "DELETE"
+			}
+		]
+	}
+}
